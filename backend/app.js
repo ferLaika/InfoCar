@@ -1,7 +1,8 @@
 // backend/app.js
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000; // Change 3000 to your desired port
+
 
 // Middleware
 app.use(express.json());
